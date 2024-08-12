@@ -204,6 +204,17 @@ ul a {
     flex-direction: column;
     flex-basis: calc((100% - 72px) / 4);
 }
+
+.feat-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
 .feat-sub {
     font-weight: 500;
     font-size: 20px; 
@@ -290,7 +301,7 @@ ul a {
     row-gap: 48px;
 }
 .port-item {
-    width: clac((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 .port-card {
     border: 1px solid #E7E9FC;
