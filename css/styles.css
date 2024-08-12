@@ -30,6 +30,7 @@ ul a {
 /* Header*/
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     
 }
 .container-header {
@@ -52,6 +53,7 @@ ul a {
     letter-spacing: 0.03em;
 
     margin-right: 76px;
+    position: relative;
 }
 .logo-span {
     color: #2E2F42;
@@ -143,6 +145,8 @@ ul a {
 
     margin-left: 481px;
     margin-right: 481px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 .button:hover,
