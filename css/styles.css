@@ -53,7 +53,7 @@ ul a {
     letter-spacing: 0.03em;
 
     margin-right: 76px;
-    position: relative;
+    
 }
 .logo-span {
     color: #2E2F42;
@@ -72,6 +72,9 @@ ul a {
     line-height: 1.5;
     letter-spacing: 0.32px;
     padding: 24px 0;
+
+    position: relative;
+    color: #404bbf;
 }
 
 .navigation-link:hover, 
