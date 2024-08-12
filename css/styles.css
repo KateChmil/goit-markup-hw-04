@@ -283,7 +283,9 @@ ul a {
     align-items: center;
     justify-content: center;
 }
-.social-link:hover,
+.social-link:hover {
+        background-color: #404bbf;
+    }
 .social-link:focus {
     background-color: #404bbf;
 }
